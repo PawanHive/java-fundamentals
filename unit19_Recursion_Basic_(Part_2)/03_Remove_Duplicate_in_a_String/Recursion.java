@@ -25,3 +25,45 @@ public class Recursion {
     removeDuplicates(str, 0, new StringBuilder(""), new boolean[26]);
   }
 }
+
+
+/*
+public class RemoveDuplicates {
+
+    // Pass StringBuilder as parameter — single object shared across all calls
+    static void removeDuplicates(String str, boolean[] visited, int idx, StringBuilder sb) {
+
+        // Base case
+        if (idx == str.length()) {
+            return;
+        }
+
+        char ch = str.charAt(idx);
+        int charIndex = ch - 'a';
+
+        if (visited[charIndex]) {
+            // Skip — just recurse forward
+            removeDuplicates(str, visited, idx + 1, sb);
+            return;
+        }
+
+        // Mark visited + append to StringBuilder
+        visited[charIndex] = true;
+        sb.append(ch);                                    // no new object created
+
+        // Recurse for next character
+        removeDuplicates(str, visited, idx + 1, sb);
+    }
+
+    public static void main(String[] args) {
+        String str = "appnnacollege";
+        boolean[] visited = new boolean[26];
+        StringBuilder sb = new StringBuilder();          // single object created once
+
+        removeDuplicates(str, visited, 0, sb);
+
+        System.out.println("Input  : " + str);
+        System.out.println("Output : " + sb.toString());
+    }
+}
+*/

@@ -21,6 +21,6 @@ public class Recursion {
     return tilingProblem(n-1) + tilingProblem(n-2);
   }
   public static void main(String[] args) {
-    System.out.println(tilingProblem(4)); // here n is width and length of the floor already given in question and the solution will be exactly same for any no. length given
+    System.out.println(tilingProblem(4)); // here n is length and width of the floor already given in question and the solution will be exactly same for any no. length given
   }
 }

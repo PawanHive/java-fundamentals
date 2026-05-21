@@ -1,3 +1,5 @@
+// RECURSION: Print numbers in decreasing (from n to 1)
+
 import java.util.*;
 
 public class Recursion {

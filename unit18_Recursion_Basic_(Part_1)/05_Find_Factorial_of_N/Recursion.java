@@ -1,4 +1,4 @@
-
+// Print factorial of N using recursion
 
 public class Recursion {
   public static int fact(int n) {

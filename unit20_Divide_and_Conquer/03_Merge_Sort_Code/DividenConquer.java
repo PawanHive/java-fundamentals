@@ -41,6 +41,7 @@ public class DividenConquer {
       k++;
     }
 
+    // these below while loop work when (the above main while loop stops as soon as ANY ONE side is exhausted!)
     // remaining element to left part
     while (i <= mid) {
       temp[k++] = arr[i++];
