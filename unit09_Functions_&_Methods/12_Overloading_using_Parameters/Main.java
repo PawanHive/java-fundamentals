@@ -1,3 +1,5 @@
+// overloading using parameter
+
 
 public class Main {
   // func to calc sum of 2 numbers

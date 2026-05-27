@@ -3,6 +3,7 @@
 public class Main {
 
   //is number prime or not?
+  // Prime Number definition: A prime number has exactly 2 factors: 1 and itself;
 
   // only for n >= 2
   public static boolean isPrime(int n) {
