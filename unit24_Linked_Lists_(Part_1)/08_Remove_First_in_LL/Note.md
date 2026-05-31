@@ -1,0 +1,1 @@
+# ![](../09_Remove_Last_in_LL/LL.AllOperations.png)
