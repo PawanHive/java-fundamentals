@@ -1,4 +1,6 @@
 /*
+HERE WE LEARNED HOW TO CREATE DATA STRUCTURE FROM SCRETCH ( WE CAN ALSO DO THIS add, print, remove USING JAVA COLLECTIONS FRAMEWORK, but interview can as to do it manually)
+
 Add First
 Add Last
 Print a LL

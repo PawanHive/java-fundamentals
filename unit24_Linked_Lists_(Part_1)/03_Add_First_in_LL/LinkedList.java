@@ -3,6 +3,8 @@ Add First in Linked List
 */
 
 public class LinkedList {
+
+  // Defining Nodes
   public static class Node {
     int data; 
     Node next;
