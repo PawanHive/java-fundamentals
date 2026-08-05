@@ -17,7 +17,7 @@ public class Main {
 
   public static void main(String[] args) {
     int n = 6;
-    int f[] = new int[n+1]; 
+    int[] f = new int[n+1]; 
     System.out.println(fibTabulation(n));
   }
 }
